@@ -11,7 +11,6 @@ for fahr = 0, 20, ..., 300 */
     main()
 {
     printf("Celsius to Fahrenheit");
-
     printf("\n");
     printf("\n");
 
