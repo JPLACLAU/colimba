@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 
-/* copy input to output; 1st version */
 
 int main()
 {
