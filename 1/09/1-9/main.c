@@ -17,19 +17,23 @@ int main()
     blanks = 0;
     tabs = 0;
     nl = 0;
-    lastChar = ' ';
+    lastChar = 0;
 
 
     while ((c = getchar()) !=EOF)
     {
-        lastChar = c; /* Para comparar el caracter nuevo con el previo */
-        if ( c == ' ') {
-            {
-            if (lastChar != ' ')
-                putchar(c);
-                ++blank;
-        };
 
+
+        if ( c == ' ') {
+
+        if (lastChar != ' ') {
+                ++blanks;
+                putchar(c);
+                }
+         };
+
+        if(c != ' ')
+            putchar(c);
 
         if ( c == '\t')
         ++tabs;
@@ -37,19 +41,20 @@ int main()
         if ( c == '\n')
         ++nl;
 
-        else { putchar(c);}
+        lastChar = c; /* Para comparar el caracter nuevo con el previo */
+
+
         }
 
 
-
-    }
     printf("blanks: %d\n", blanks);
     printf("\n");
     printf("tabs: %d\n", tabs);
     printf("\n");
     printf("nl: %d\n", nl);
     printf("\n");
+    return 0;
+
+    }
 
 
-
-}
