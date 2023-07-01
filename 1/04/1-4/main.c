@@ -10,7 +10,7 @@ for fahr = 0, 20, ..., 300 */
 
     main()
 {
-    printf("Table heading");
+    printf("Celsius to Fahrenheit");
 
     printf("\n");
     printf("\n");
