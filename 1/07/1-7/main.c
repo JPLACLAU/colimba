@@ -8,7 +8,10 @@ int main()
     printf("Write a program to print the value of EOF");
     printf("\n");
 
-    printf("End Of File ", EOF);
+
+    printf("End Of File %u", EOF);
+    /* %u es para la representacion binaria clara */
+
     printf("\n");
     return 0;
 }

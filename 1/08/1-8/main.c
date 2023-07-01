@@ -11,9 +11,14 @@ int main()
     printf("\n");
     printf("Write a program to count blanks, tabs, and newlines");
     printf("\n");
-    int c, blanks, tabs, nl;
+    int c, blanks, tabs, nl; /* declarado */
+    /* esta es una variable automatica */
 
-    nl = 0;
+
+    nl = 0; /*definidos*/
+    blanks = 0;
+    tabs = 0;
+
     while ((c = getchar()) !=EOF)
     {
         if ( c == ' ')
