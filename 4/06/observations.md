@@ -17,7 +17,7 @@ This is the list of the commands added on this excercise:
 
 <br> </br>
 
-> Terminal output: sin | exp | pow
+> Terminal output
 
 ```
 7 a =
