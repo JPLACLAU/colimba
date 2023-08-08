@@ -95,7 +95,7 @@ int main() {
             case NUMBER:
                 push(atof(s));
                 break;
-            case 'I': // Integer input using getint
+            case 'I': 
                 getint(&n);
                 push(n);
                 break;
