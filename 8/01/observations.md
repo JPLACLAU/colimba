@@ -72,3 +72,5 @@ PS E:\Github\colimba_gimnasio\8\01\8-1>
 (\*) mainSystem.c = mainPersonalized.c, its the same program. I renamed the program to mainSystem after reviewing the excercise because it is a much more appropiate name than mainPersonalized
 
 Last but not least, the a.exe file is the executable made after compiling in windows via the powershell terminal using gcc command.
+
+Also: bonus track. fue el cumple de mariano. adjunto codigo del regalo given to mpr.
