@@ -1,0 +1,6 @@
+Just a text file for excersie 8-5
+
+
+# Exercise 8-5
+
+Modify the `fsize` program to print the other information contained in the inode entry.
